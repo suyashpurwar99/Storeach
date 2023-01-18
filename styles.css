@@ -1,0 +1,206 @@
+*{
+  margin : 0;
+}
+a{
+  text-decoration: none;
+}
+.navbar1{
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  left: 0;
+  top: 0;
+  padding: 13px 3px 17px;
+  margin: 0;
+  background: #000000;
+  position: fixed;
+  overflow: hidden;
+  z-index:1;
+}
+.brandName{
+font-weight: 600;
+font-size: 30px;
+color: #E45826;
+margin-left: 1.2%;
+font-family: 'Montserrat', sans-serif;
+padding: 20px 20px 5px ;
+text-decoration: none;
+letter-spacing: 3px;
+}
+.searchbar{
+padding: 22px 20px 14px ;
+background: #FFFFFF;
+border: none;
+border-radius: 5px;
+width: 30%;
+height: 15px;
+margin:0 0 0 3%;
+font-size: 16px;
+font-family: 'Ubuntu', sans-serif;
+font-weight:300;
+color: #1A120B;
+}
+.searchbaricon{
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding-left:1px;
+  margin-top: 2px;
+}
+.searchbaricon:hover{
+  background-color: #000000;
+  color: #F0A500;
+}
+.btnlogin {
+  float: right;
+  margin-right: 35px;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #c3c5c7);
+  background-image: -moz-linear-gradient(top, #ffffff, #c3c5c7);
+  background-image: -ms-linear-gradient(top, #ffffff, #c3c5c7);
+  background-image: -o-linear-gradient(top, #ffffff, #c3c5c7);
+  background-image: linear-gradient(to bottom, #ffffff, #c3c5c7);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;;
+  color: #06283D;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 2px;
+  padding: 5px 14px 6px;
+  text-decoration: none;
+  border: none;
+  display: inline;
+}
+.navbarmenu {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 10px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing: 0;
+  margin-right: 15px;
+  display: inline;
+}
+
+
+/* Change the color of links on hover */
+.navbarmenu:hover {
+  background-color: #000000;
+  color: #F0A500;
+}
+
+.btnlogin:hover {
+  background: #e8e8e8;
+  background-image: -webkit-linear-gradient(top, #e8e8e8, #fffcff);
+  background-image: -moz-linear-gradient(top, #e8e8e8, #fffcff);
+  background-image: -ms-linear-gradient(top, #e8e8e8, #fffcff);
+  background-image: -o-linear-gradient(top, #e8e8e8, #fffcff);
+  background-image: linear-gradient(to bottom, #e8e8e8, #fffcff);
+  text-decoration: none;
+  color: #F0A500;
+}
+.feaImage{
+  padding: 15px 0 15px;
+  background: #E6D5B8;
+  margin: 0;
+  width: 100%;
+  position:relative;
+  left: 0;
+  right: 0;
+  top:60px;
+  box-sizing: border-box;
+}
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  padding:3% 0 .1%;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px 10px;
+  background-color: #F0A500;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #000000;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.adshomepage{
+  background: #000000;
+  margin-top: 60px;
+  padding: 10px 0 30px 0;
+  overflow: hidden;
+
+}
+.ads{
+  width: 18%;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px;
+  border-color: #473C33;
+  overflow: hidden;
+}
+.titles{
+  color: #F0A500;
+  padding: 20px 2% 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  letter-spacing: 2px;
+  font-weight: bold;
+  display: block;
+}
+.titles:hover{
+  color: #E45826;
+}
+.seemore{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  color:#E6D5B8;
+  font-weight: bold;
+}
+.seemore:hover{
+  color: #F0A500;
+}
+.bannerhomepage{
+background: #E6D5B8;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.bannernum{
+  width:33%;
+  padding: 2%;
+}
